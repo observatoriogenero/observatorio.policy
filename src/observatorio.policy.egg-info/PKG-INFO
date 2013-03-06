@@ -1,0 +1,82 @@
+Metadata-Version: 1.0
+Name: observatorio.policy
+Version: 0.1
+Summary: UNKNOWN
+Home-page: http://pypi.python.org/pypi/observatorio.policy
+Author: Gustavo Lepri.
+Author-email: gustavolepri@gmail.com
+License: BSD
+Description: ====================
+        observatorio.policy
+        ====================
+        
+        A Plone add-on that ...
+        
+        * `Source code @ GitHub <https://github.com/''/observatorio.policy>`_
+        * `Releases @ PyPI <http://pypi.python.org/pypi/observatorio.policy>`_
+        * `Documentation @ ReadTheDocs <http://observatoriopolicy.readthedocs.org>`_
+        * `Continuous Integration @ Travis-CI <http://travis-ci.org/''/observatorio.policy>`_
+        
+        How it works
+        ============
+        
+        ...
+        
+        
+        Installation
+        ============
+        
+        To install `observatorio.policy` you simply add ``observatorio.policy``
+        to the list of eggs in your buildout, run buildout and restart Plone.
+        Then, install `observatorio.policy` using the Add-ons control panel.
+        
+        
+        Configuration
+        =============
+        
+        ...
+        
+        Changelog
+        =========
+        
+        
+        0.1 (unreleased)
+        ----------------
+        
+        - Initial release.
+          [YOUR NAME HERE]
+        
+        License (3-clause BSD)
+        ======================
+        
+        Copyright (c) 2012, Gustavo Lepri.. All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+         * Redistributions of source code must retain the above copyright notice,
+           this list of conditions and the following disclaimer.
+        
+         * Redistributions in binary form must reproduce the above copyright
+           notice, this list of conditions and the following disclaimer in the
+           documentation and/or other materials provided with the distribution.
+        
+         * Neither the name of Gustavo Lepri.. nor the names of its contributors may
+           be used to endorse or promote products derived from this software
+           without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL GUSTAVO LEPRI. BE LIABLE FOR ANY
+        DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+        ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+        
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python

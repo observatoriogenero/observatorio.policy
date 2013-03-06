@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="observatorio.policy"
+    interface="observatorio.policy.interfaces.IObservatorioPolicyLayer"
+  />
+</layers>
