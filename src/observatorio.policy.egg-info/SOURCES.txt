@@ -26,5 +26,4 @@ src/observatorio/policy/browser/static/.gitkeep
 src/observatorio/policy/profiles/default/browserlayer.xml
 src/observatorio/policy/profiles/default/metadata.xml
 src/observatorio/policy/tests/__init__.py
-src/observatorio/policy/tests/__init__.pyc
 src/observatorio/policy/tests/test_setup.py
