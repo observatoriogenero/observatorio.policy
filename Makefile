@@ -1,42 +1,57 @@
-# convenience makefile to boostrap & run buildout
-# use `make options=-v` to run buildout with extra options
+# convenience Makefile to run tests and QA tools
+# options: zc.buildout options
+# src: source path
+# minimum_coverage: minimun test coverage allowed
+# pep8_ignores: ignore listed PEP 8 errors and warnings
+# max_complexity: maximum McCabe complexity allowed
+# css_ignores: skip file names matching find pattern (use ! -name PATTERN)
+# js_ignores: skip file names matching find pattern (use ! -name PATTERN)
 
-version = 2.7
-python = bin/python
-options =
+SHELL = /bin/sh
 
-all: docs tests
+options = -N -q -t 3
+src = src/observatorio/policy/
+minimum_coverage = 80
+pep8_ignores = E501
+max_complexity = 12
+css_ignores = ! -name bootstrap\* ! -name jquery\*
+js_ignores = ! -name bootstrap\* ! -name jquery\*
 
-docs: docs/html/index.html
+ack-install:
+	sudo apt-get install ack-grep
 
-docs/html/index.html: docs/*.rst src/observatorio/policy/*.py src/observatorio/policy/browser/*.py src/observatorio/policy/tests/*.py bin/sphinx-build
-	bin/sphinx-build docs docs/html
-	@touch $@
-	@echo "Documentation was generated at '$@'."
+nodejs-install:
+	sudo apt-add-repository ppa:chris-lea/node.js -y
+	sudo apt-get update 1>/dev/null
+	sudo apt-get install nodejs npm -y
 
-bin/sphinx-build: .installed.cfg
-	@touch $@
+csslint-install: nodejs-install
+	npm install csslint -g
 
-.installed.cfg: bin/buildout buildout.cfg buildout.d/*.cfg setup.py
-	bin/buildout $(options)
+jshint-install: nodejs-install
+	npm install jshint -g
 
-bin/buildout: $(python) buildout.cfg bootstrap.py
-	$(python) bootstrap.py -d
-	@touch $@
+python-validation:
+	@echo Validating Python files
+	bin/flake8 --ignore=$(pep8_ignores) --max-complexity=$(max_complexity) $(src)
 
-$(python):
-	virtualenv -p python$(version) --no-site-packages .
-	@touch $@
+css-validation: ack-install csslint-install
+	@echo Validating CSS files
+	find $(src) -type f -name *.css $(css_ignores) | xargs csslint | ack-grep --passthru error
 
-tests: .installed.cfg
-	@bin/test
-	@bin/flake8 src/observatorio/policy
-	@for pt in `find src/observatorio/policy -name "*.pt"` ; do bin/zptlint $$pt; done
-	@for xml in `find src/observatorio/policy -name "*.xml"` ; do bin/zptlint $$xml; done
-	@for zcml in `find src/observatorio/policy -name "*.zcml"` ; do bin/zptlint $$zcml; done
+js-validation: ack-install jshint-install
+	@echo Validating JavaScript files
+	find $(src) -type f -name *.js $(js_ignores) -exec jshint {} ';' | ack-grep --passthru error
 
-clean:
-	@rm -rf .installed.cfg .mr.developer.cfg bin docs/html parts develop-eggs \
-		src/observatorio.policy.egg-info lib include .Python
+quality-assurance: python-validation css-validation js-validation
+	@echo Quality assurance
+	./coverage.sh $(minimum_coverage)
 
-.PHONY: all docs tests clean
+install:
+	mkdir -p buildout-cache/downloads
+	python bootstrap.py -c travis.cfg
+	bin/buildout -c travis.cfg $(options)
+
+tests:
+	bin/pocompile $(src)
+	bin/test

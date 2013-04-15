@@ -1,7 +1,12 @@
+.installed.cfg
+.mr.developer.cfg
 MANIFEST.in
 README.rst
 buildout.cfg
+quality-assurance.cfg
 setup.py
+sources.cfg
+travis.cfg
 src/observatorio/__init__.py
 src/observatorio/__init__.pyc
 src/observatorio.policy.egg-info/PKG-INFO
@@ -14,6 +19,7 @@ src/observatorio.policy.egg-info/requires.txt
 src/observatorio.policy.egg-info/top_level.txt
 src/observatorio/policy/__init__.py
 src/observatorio/policy/__init__.pyc
+src/observatorio/policy/config.py
 src/observatorio/policy/configure.zcml
 src/observatorio/policy/interfaces.py
 src/observatorio/policy/interfaces.pyc

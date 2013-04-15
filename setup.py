@@ -55,8 +55,6 @@ setup(
          'collective.azindexpage',
          'eea.facetednavigation',
          'collective.linguafaq',
-         'sc.periodicals',
-         'collective.pdfleadimage',
          'collective.pdfpeek',
          'collective.newsticker',
          'collective.portlet.feedmixer',
