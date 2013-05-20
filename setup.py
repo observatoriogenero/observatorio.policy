@@ -59,7 +59,7 @@ setup(
          'collective.newsticker',
          'collective.portlet.feedmixer',
          'raptus.autocompletewidget',
-         'collective.portlet.keywordmatches',
+         'collective.portlet.relateditems',
          'collective.googleanalytics',
          'sc.contentrules.groupbydate',
          'collective.contentgovernance',
@@ -71,6 +71,10 @@ setup(
          'collective.polls',
          'Products.PloneFormGen',
          'Products.PloneBoard',
+         'observatorio.conteudo',
+         'observatorio.tema',
+         #Para teste
+         'jyu.rsslisting',
     ],
     extras_require={
         'test': [

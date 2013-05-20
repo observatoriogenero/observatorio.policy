@@ -21,7 +21,7 @@ collective.pdfpeek
 collective.newsticker
 collective.portlet.feedmixer
 raptus.autocompletewidget
-collective.portlet.keywordmatches
+collective.portlet.relateditems
 collective.googleanalytics
 sc.contentrules.groupbydate
 collective.contentgovernance
@@ -33,6 +33,9 @@ collective.wasthisuseful
 collective.polls
 Products.PloneFormGen
 Products.PloneBoard
+observatorio.conteudo
+observatorio.tema
+jyu.rsslisting
 
 [test]
 mock

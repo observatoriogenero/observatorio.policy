@@ -20,10 +20,12 @@ src/observatorio.policy.egg-info/top_level.txt
 src/observatorio/policy/__init__.py
 src/observatorio/policy/__init__.pyc
 src/observatorio/policy/config.py
+src/observatorio/policy/config.pyc
 src/observatorio/policy/configure.zcml
 src/observatorio/policy/interfaces.py
 src/observatorio/policy/interfaces.pyc
 src/observatorio/policy/testing.py
+src/observatorio/policy/testing.pyc
 src/observatorio/policy/browser/__init__.py
 src/observatorio/policy/browser/__init__.pyc
 src/observatorio/policy/browser/configure.zcml
@@ -32,4 +34,6 @@ src/observatorio/policy/browser/static/.gitkeep
 src/observatorio/policy/profiles/default/browserlayer.xml
 src/observatorio/policy/profiles/default/metadata.xml
 src/observatorio/policy/tests/__init__.py
+src/observatorio/policy/tests/__init__.pyc
 src/observatorio/policy/tests/test_setup.py
+src/observatorio/policy/tests/test_setup.pyc

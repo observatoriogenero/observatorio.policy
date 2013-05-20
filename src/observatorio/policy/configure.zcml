@@ -15,7 +15,7 @@
 
     <genericsetup:registerProfile
         name="default"
-        title="observatorio.policy"
+        title="Observatorio: Politicas de configuracao"
         directory="profiles/default"
         description="Extension profile for observatorio.policy."
         provides="Products.GenericSetup.interfaces.EXTENSION"
