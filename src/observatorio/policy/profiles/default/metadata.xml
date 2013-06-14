@@ -21,16 +21,14 @@
     <dependency>profile-raptus.autocompletewidget:default</dependency>
     <dependency>profile-collective.portlet.relateditems:default</dependency>
     <dependency>profile-collective.googleanalytics:default</dependency>
-    <dependency>profile-sc.contentrules.groupbydate:default</dependency>
     <dependency>profile-collective.contentgovernance:default</dependency>
-    <dependency>profile-collective.twitter.action:default</dependency>
     <dependency>profile-collective.quickupload:default</dependency>
     <dependency>profile-collective.simplesocial:fbconnect</dependency>
     <dependency>profile-collective.twitter.portlets:default</dependency>
     <dependency>profile-collective.wasthisuseful:default</dependency>
     <dependency>profile-collective.polls:default</dependency>
     <dependency>profile-Products.PloneFormGen:default</dependency>
-    <dependency>profile-Products.PloneBoard:default</dependency>
+    <dependency>profile-Products.Ploneboard:default</dependency>
     <dependency>profile-observatorio.conteudo:default</dependency>
     <dependency>profile-observatorio.tema:default</dependency>
   </dependencies>
