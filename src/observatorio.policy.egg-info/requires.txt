@@ -12,6 +12,7 @@ collective.embedly
 collective.cover
 eea.daviz
 Products.EasyNewsletter
+inqbus.plone.fastmemberproperties
 collective.watcherlist
 Solgema.fullcalendar
 collective.azindexpage
@@ -35,6 +36,7 @@ Products.PloneFormGen
 Products.PloneBoard
 observatorio.conteudo
 observatorio.tema
+quintagroup.seoptimizer>=4.0
 jyu.rsslisting
 
 [test]

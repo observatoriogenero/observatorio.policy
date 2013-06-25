@@ -49,7 +49,7 @@ setup(
          'collective.embedly',
          'collective.cover',
          'eea.daviz',
-         'Products.EasyNewsletter',
+         'Products.EasyNewsletter[all]',
          'collective.watcherlist',
          'Solgema.fullcalendar',
          'collective.azindexpage',
@@ -73,7 +73,7 @@ setup(
          'Products.PloneBoard',
          'observatorio.conteudo',
          'observatorio.tema',
-         #Para teste
+         'quintagroup.seoptimizer>=4.0',
          'jyu.rsslisting',
     ],
     extras_require={
