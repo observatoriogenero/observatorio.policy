@@ -15,7 +15,6 @@
     <dependency>profile-collective.azindexpage:default</dependency>
     <dependency>profile-eea.facetednavigation:default</dependency>
     <dependency>profile-collective.linguafaq:default</dependency>
-    <dependency>profile-collective.pdfpeek:default</dependency>
     <dependency>profile-collective.newsticker:default</dependency>
     <dependency>profile-collective.portlet.feedmixer:default</dependency>
     <dependency>profile-raptus.autocompletewidget:default</dependency>

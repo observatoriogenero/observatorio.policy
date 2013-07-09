@@ -11,14 +11,12 @@ collective.oembed
 collective.embedly
 collective.cover
 eea.daviz
-Products.EasyNewsletter
-inqbus.plone.fastmemberproperties
+Products.EasyNewsletter[all]
 collective.watcherlist
 Solgema.fullcalendar
 collective.azindexpage
 eea.facetednavigation
 collective.linguafaq
-collective.pdfpeek
 collective.newsticker
 collective.portlet.feedmixer
 raptus.autocompletewidget

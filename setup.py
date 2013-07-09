@@ -55,7 +55,6 @@ setup(
          'collective.azindexpage',
          'eea.facetednavigation',
          'collective.linguafaq',
-         'collective.pdfpeek',
          'collective.newsticker',
          'collective.portlet.feedmixer',
          'raptus.autocompletewidget',
