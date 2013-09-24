@@ -39,6 +39,7 @@ setup(
          'five.grok',
          'five.pt',
          'Pillow',
+         'feedmixer',
          'Plone>=4.3.1',
          'setuptools',
          'brasil.gov.barra',
