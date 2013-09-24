@@ -4,7 +4,6 @@
   <dependencies>
     <dependency>profile-brasil.gov.barra:default</dependency>
     <dependency>profile-brasil.gov.vcge:default</dependency>
-    <dependency>profile-collective.portlet.banners:default</dependency>
     <dependency>profile-collective.galleria:default</dependency>
     <dependency>profile-collective.oembed:default</dependency>
     <dependency>profile-collective.embedly:default</dependency>
@@ -16,7 +15,6 @@
     <dependency>profile-eea.facetednavigation:default</dependency>
     <dependency>profile-collective.linguafaq:default</dependency>
     <dependency>profile-collective.newsticker:default</dependency>
-    <dependency>profile-collective.portlet.feedmixer:default</dependency>
     <dependency>profile-raptus.autocompletewidget:default</dependency>
     <dependency>profile-collective.portlet.relateditems:default</dependency>
     <dependency>profile-collective.googleanalytics:default</dependency>
