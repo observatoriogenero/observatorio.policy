@@ -26,11 +26,6 @@ src/observatorio/policy/interfaces.py
 src/observatorio/policy/interfaces.pyc
 src/observatorio/policy/testing.py
 src/observatorio/policy/testing.pyc
-src/observatorio/policy/browser/__init__.py
-src/observatorio/policy/browser/__init__.pyc
-src/observatorio/policy/browser/configure.zcml
-src/observatorio/policy/browser/overrides/.gitkeep
-src/observatorio/policy/browser/static/.gitkeep
 src/observatorio/policy/profiles/default/browserlayer.xml
 src/observatorio/policy/profiles/default/metadata.xml
 src/observatorio/policy/tests/__init__.py
