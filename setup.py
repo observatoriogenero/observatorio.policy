@@ -37,7 +37,7 @@ setup(
     zip_safe=False,
     install_requires=[
          'five.grok',
-#         'five.pt',
+         'five.pt',
          'Pillow',
          'Plone>=4.3.1',
          'setuptools',
