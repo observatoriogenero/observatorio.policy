@@ -4,29 +4,32 @@
   <dependencies>
     <dependency>profile-brasil.gov.barra:default</dependency>
     <dependency>profile-brasil.gov.vcge:default</dependency>
-    <dependency>profile-collective.galleria:default</dependency>
-    <dependency>profile-collective.oembed:default</dependency>
-    <dependency>profile-collective.embedly:default</dependency>
-    <dependency>profile-collective.cover:default</dependency>
-    <dependency>profile-eea.daviz:default</dependency>
-    <dependency>profile-Products.EasyNewsletter:default</dependency>
-    <dependency>profile-Solgema.fullcalendar:default</dependency>
     <dependency>profile-collective.azindexpage:default</dependency>
-    <dependency>profile-eea.facetednavigation:default</dependency>
+    <dependency>profile-collective.contentgovernance:default</dependency>
+    <dependency>profile-collective.cover:default</dependency>
+    <dependency>profile-collective.embedly:default</dependency>
+    <dependency>profile-collective.galleria:default</dependency>
+    <dependency>profile-collective.googleanalytics:default</dependency>
     <dependency>profile-collective.linguafaq:default</dependency>
     <dependency>profile-collective.newsticker:default</dependency>
-    <dependency>profile-raptus.autocompletewidget:default</dependency>
+    <dependency>profile-collective.oembed:default</dependency>
+    <dependency>profile-collective.polls:default</dependency>
     <dependency>profile-collective.portlet.relateditems:default</dependency>
-    <dependency>profile-collective.googleanalytics:default</dependency>
-    <dependency>profile-collective.contentgovernance:default</dependency>
     <dependency>profile-collective.quickupload:default</dependency>
     <dependency>profile-collective.simplesocial:fbconnect</dependency>
     <dependency>profile-collective.twitter.portlets:default</dependency>
     <dependency>profile-collective.wasthisuseful:default</dependency>
-    <dependency>profile-collective.polls:default</dependency>
-    <dependency>profile-Products.PloneFormGen:default</dependency>
-    <dependency>profile-Products.Ploneboard:default</dependency>
+    <dependency>profile-eea.daviz:default</dependency>
+    <dependency>profile-eea.facetednavigation:default</dependency>
+    <dependency>profile-inqbus.plone.fastmemberproperties:default</dependency>
     <dependency>profile-observatorio.conteudo:default</dependency>
     <dependency>profile-observatorio.tema:default</dependency>
+    <dependency>profile-quintagroup.seoptimizer:default</dependency>
+    <dependency>profile-raptus.autocompletewidget:default</dependency>
+    <dependency>profile-Products.DataGridField:default</dependency>
+    <dependency>profile-Products.EasyNewsletter:default</dependency>
+    <dependency>profile-Products.PloneFormGen:default</dependency>
+    <dependency>profile-Products.Ploneboard:default</dependency>
+    <dependency>profile-Solgema.fullcalendar:default</dependency>
   </dependencies>
 </metadata>
