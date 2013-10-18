@@ -28,7 +28,15 @@ src/observatorio/policy/setuphandlers.py
 src/observatorio/policy/setuphandlers.pyc
 src/observatorio/policy/testing.py
 src/observatorio/policy/testing.pyc
+<<<<<<< HEAD
 src/observatorio/policy/profiles/default/actions.xml
+=======
+src/observatorio/policy/browser/__init__.py
+src/observatorio/policy/browser/__init__.pyc
+src/observatorio/policy/browser/configure.zcml
+src/observatorio/policy/browser/overrides/.gitkeep
+src/observatorio/policy/browser/static/.gitkeep
+>>>>>>> 0b8cc4691122fab62b0d1e5d5e9f4c23c5d67062
 src/observatorio/policy/profiles/default/browserlayer.xml
 src/observatorio/policy/profiles/default/catalog.xml
 src/observatorio/policy/profiles/default/cssregistry.xml
