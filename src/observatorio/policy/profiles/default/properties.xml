@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<site>
+ <property
+    name="title">Observatório Brasil da Igualdade de Gênero</property>
+ <property
+    name="description">Uma iniciativa da Secretaria de Políticas para as Mulheres da Presidência da República (SPM/PR) com o objetivo de disseminar informações sobre as desigualdades de gênero e os direitos das mulheres.</property>
+ <property name="validate_email" type="boolean">True</property>
+ <property name="email_charset" type="string">utf-8</property>
+ <property name="enable_permalink" type="boolean">False</property>
+ <property name="default_page" type="string">pagina-inicial</property>
+</site>

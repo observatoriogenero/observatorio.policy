@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<object name="portal_actions" meta_type="Plone Actions Tool"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+ <object name="site_actions" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="sitemap" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Site Map</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:${globals_view/navigationRootUrl}/sitemap</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="accessibility" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Accessibility</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:${globals_view/navigationRootUrl}/accessibility-info</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="azindexpage" meta_type="CMF Action">
+   <property name="title">Observatório de A a Z</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:${globals_view/navigationRootUrl}/@@azindexpage</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="contact" meta_type="CMF Action">
+   <property name="title">Fale com o Observatório</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:${globals_view/navigationRootUrl}/acompanhamento/fale-com-o-observatorio</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="plone_setup" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Site Setup</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:${portal_url}/@@overview-controlpanel</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="Plone Site Setup: Overview"/>
+   </property>
+   <property name="visible">False</property>
+  </object>
+ </object>
+ <object name="site_sections" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="temas" meta_type="CMF Action">
+   <property name="title">Temas</property>
+   <property name="description">Áreas temáticas</property>
+   <property
+      name="url_expr">string:${globals_view/navigationRootUrl}/areas-tematicas</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="eixos" meta_type="CMF Action">
+   <property name="title">Eixos</property>
+   <property name="description">Eixos de atuação</property>
+   <property
+      name="url_expr">string:${globals_view/navigationRootUrl}/eixos-de-atuacao</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="biblioteca" meta_type="CMF Action">
+   <property name="title">Biblioteca</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:${globals_view/navigationRootUrl}/biblioteca</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="participe" meta_type="CMF Action">
+   <property name="title">Participe!</property>
+   <property name="description"></property>
+   <property name="url_expr">string:${portal_url}/acompanhamento</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
+</object>
