@@ -25,6 +25,7 @@
     <dependency>profile-observatorio.conteudo:default</dependency>
     <dependency>profile-observatorio.tema:default</dependency>
     <dependency>profile-quintagroup.seoptimizer:default</dependency>
+    <dependency>profile-raptus.autocompletewidget:default</dependency>
     <dependency>profile-Products.DataGridField:default</dependency>
     <dependency>profile-Products.EasyNewsletter:default</dependency>
     <dependency>profile-Products.PloneFormGen:default</dependency>

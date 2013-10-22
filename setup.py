@@ -55,6 +55,7 @@ setup(
          'eea.facetednavigation==6.1',
          'collective.linguafaq==0.5',
          'collective.newsticker',
+         'raptus.autocompletewidget==0.1',
          'collective.portlet.relateditems==0.3.10',
          'collective.googleanalytics==1.4.3',
          'sc.contentrules.groupbydate==2.0',
