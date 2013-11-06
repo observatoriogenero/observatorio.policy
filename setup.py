@@ -49,6 +49,7 @@ setup(
          'collective.embedly==2.1',
          'collective.cover==1.0a5',
          'eea.daviz==7.7',
+         'eea.depiction==5.2',
          'Products.EasyNewsletter[all]==2.6.11',
          'Solgema.fullcalendar==2.3',
          'collective.azindexpage==1.0.3',

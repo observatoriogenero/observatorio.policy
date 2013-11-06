@@ -9,6 +9,8 @@
 
     <includeDependencies package="." />
 
+    <includeDependenciesOverrides package="." />
+
     <grok:grok package="." />
 
     <genericsetup:registerProfile
